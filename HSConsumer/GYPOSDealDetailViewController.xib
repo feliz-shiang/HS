@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GYPOSDealDetailViewController">
+            <connections>
+                <outlet property="btnConfirm" destination="9qn-JG-jEY" id="cjq-51-VaK"/>
+                <outlet property="imgTitle" destination="xLA-Hi-l41" id="YdY-ld-B1T"/>
+                <outlet property="lbTitle" destination="iGf-eg-6Md" id="Qew-w3-efV"/>
+                <outlet property="scvDealDetail" destination="WeS-aS-Qg6" id="l3a-HE-urZ"/>
+                <outlet property="tbvDealDetail" destination="UzJ-D9-Jqm" id="TPV-Pf-AAF"/>
+                <outlet property="vInputPWD" destination="8TM-rx-kPp" id="W9E-Q8-Wm8"/>
+                <outlet property="vTitle" destination="gh5-VO-ydi" id="D5Z-8r-suj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="WeS-aS-Qg6">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="UzJ-D9-Jqm">
+                            <rect key="frame" x="0.0" y="16" width="320" height="103"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="fw3-kW-A7t"/>
+                                <outlet property="delegate" destination="-1" id="pM5-bf-FBy"/>
+                            </connections>
+                        </tableView>
+                        <view contentMode="scaleToFill" id="8TM-rx-kPp" customClass="InputCellStypeView">
+                            <rect key="frame" x="0.0" y="262" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pQY-sC-K8e">
+                                    <rect key="frame" x="16" y="0.0" width="88" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入..." minimumFontSize="17" id="tAw-2G-AoV">
+                                    <rect key="frame" x="112" y="0.0" width="188" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="lbLeftlabel" destination="pQY-sC-K8e" id="okY-oo-RPN"/>
+                                <outlet property="tfRightTextField" destination="tAw-2G-AoV" id="zfU-nA-zRH"/>
+                            </connections>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9qn-JG-jEY" customClass="BtnConfirm">
+                            <rect key="frame" x="15" y="369" width="290" height="36"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="ep_btn_confirm_normal.png"/>
+                            <state key="disabled" backgroundImage="btn_confirm_ click.png"/>
+                            <state key="selected" backgroundImage="btn_confirm_ click.png"/>
+                            <state key="highlighted" backgroundImage="btn_confirm_ click.png"/>
+                            <connections>
+                                <action selector="btnConfirmClick:" destination="-1" eventType="touchUpInside" id="MKW-dH-mT1"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" id="gh5-VO-ydi">
+                            <rect key="frame" x="15" y="445" width="290" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ep_img_succeed.png" id="xLA-Hi-l41">
+                                    <rect key="frame" x="87" y="11" width="21" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="处理成功" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iGf-eg-6Md">
+                                    <rect key="frame" x="120" y="11" width="101" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-37" y="162"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_confirm_ click.png" width="580" height="75"/>
+        <image name="ep_btn_confirm_normal.png" width="580" height="75"/>
+        <image name="ep_img_succeed.png" width="37" height="31"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

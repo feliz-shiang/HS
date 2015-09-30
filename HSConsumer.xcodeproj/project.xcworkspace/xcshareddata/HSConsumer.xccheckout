@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>27EE4E7A-068D-4CBC-A3B0-972F9B63EA7A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HSConsumer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FCDFDE2816E66CBEA187D514FDB12EA1C4C11099</key>
+		<string>http://gitlab.gyist.com/liangzm/hsconsumer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HSConsumer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FCDFDE2816E66CBEA187D514FDB12EA1C4C11099</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://gitlab.gyist.com/liangzm/hsconsumer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FCDFDE2816E66CBEA187D514FDB12EA1C4C11099</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FCDFDE2816E66CBEA187D514FDB12EA1C4C11099</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HSConsumer_develop_L2_lcw</string>
+		</dict>
+	</array>
+</dict>
+</plist>
